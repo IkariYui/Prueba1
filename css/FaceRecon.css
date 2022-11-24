@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: "lato", sans-serif;
+}
+ 
+.imagenes{
+    margin-top: 40px;
+    height: 300px;
+    width: 100%
+   
+}
+ 
+#imagen1{
+    width: 33%;
+    height: 300px;
+}
+#imagen2{
+    width: 33%;
+    height: 300px;
+}
+#imagen3{
+    width: 33%;
+    height: 300px;
+}
+ 
+ 
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+h2{
+    text-align: left;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+h3{
+    text-align: left;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+ p{
+    color: rgb(31, 17, 25);
+    font-size: 12px;
+ }
+ 
+nav{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+ 
+#footer{
+    font-size: 10px;
+}
+
+.menu{
+    
+    width: 100%;
+}
+
+.menu ul {
+    
+
+    display: flex;
+
+    padding: 0;
+
+    margin: 0;
+
+    list-style: none;
+
+}
+
+.menu a {
+
+    display: block;
+
+    padding: 0.5em;
+
+    background-color: #a4e3f7;
+
+    text-decoration: none;
+
+    color: #000000;
+
+}
+
+.menu a:hover {
+
+    background-color: #bfeefc;
+
+}
+
+.menu ul li ul {
+
+    display: none;
+
+}
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+
+    display: block;
+
+}
